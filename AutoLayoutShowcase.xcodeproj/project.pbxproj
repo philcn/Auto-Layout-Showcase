@@ -8,47 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		4ADDC3C81ACCE1300076C01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3C71ACCE1300076C01B /* AppDelegate.swift */; };
-		4ADDC3CA1ACCE1300076C01B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3C91ACCE1300076C01B /* MasterViewController.swift */; };
-		4ADDC3CC1ACCE1300076C01B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3CB1ACCE1300076C01B /* DetailViewController.swift */; };
+		4ADDC3CA1ACCE1300076C01B /* ALCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3C91ACCE1300076C01B /* ALCatalogViewController.swift */; };
+		4ADDC3CC1ACCE1300076C01B /* ALLayoutContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3CB1ACCE1300076C01B /* ALLayoutContainerViewController.swift */; };
 		4ADDC3CF1ACCE1300076C01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADDC3CD1ACCE1300076C01B /* Main.storyboard */; };
 		4ADDC3D11ACCE1300076C01B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADDC3D01ACCE1300076C01B /* Images.xcassets */; };
 		4ADDC3D41ACCE1300076C01B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADDC3D21ACCE1300076C01B /* LaunchScreen.xib */; };
-		4ADDC3E01ACCE1300076C01B /* AutoLayoutShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3DF1ACCE1300076C01B /* AutoLayoutShowcaseTests.swift */; };
+		4ADDC3EA1ACCE6200076C01B /* ALNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3E91ACCE6200076C01B /* ALNavigationController.swift */; };
+		4ADDC3ED1ACCEBFC0076C01B /* ALProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3EC1ACCEBFC0076C01B /* ALProfileViewController.swift */; };
+		4ADDC3F11ACCEDB00076C01B /* TRProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3EF1ACCEDB00076C01B /* TRProfileHeaderView.swift */; };
+		4ADDC3F21ACCEDB00076C01B /* TRProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADDC3F01ACCEDB00076C01B /* TRProfileHeaderView.xib */; };
+		4ADDC3F51ACCEDDD0076C01B /* TRCircleAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3F41ACCEDDD0076C01B /* TRCircleAvatarView.swift */; };
+		4ADDC3FB1ACCEDFE0076C01B /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3F71ACCEDFE0076C01B /* UIColor+Hex.swift */; };
+		4ADDC3FC1ACCEDFE0076C01B /* NSDate+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3F81ACCEDFE0076C01B /* NSDate+Format.swift */; };
+		4ADDC3FD1ACCEDFE0076C01B /* NSLayoutConstraint+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3F91ACCEDFE0076C01B /* NSLayoutConstraint+Separator.swift */; };
+		4ADDC3FE1ACCEDFE0076C01B /* UITableView+ContentTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC3FA1ACCEDFE0076C01B /* UITableView+ContentTouches.swift */; };
+		4ADDC4031ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC4021ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.m */; };
+		4ADDC4071ACCF65E0076C01B /* ALProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC4061ACCF65E0076C01B /* ALProfileTableViewCell.swift */; };
+		4ADDC43F1ACD3CC80076C01B /* ALDynamicLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC43E1ACD3CC80076C01B /* ALDynamicLayoutViewController.swift */; };
+		4ADDC4411ACD543E0076C01B /* UIView+SpringAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC4401ACD543E0076C01B /* UIView+SpringAnimations.swift */; };
+		4ADDC4441ACD552C0076C01B /* ALScaleLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDC4431ACD552C0076C01B /* ALScaleLayoutViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4ADDC3DA1ACCE1300076C01B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4ADDC3BA1ACCE1300076C01B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ADDC3C11ACCE1300076C01B;
-			remoteInfo = AutoLayoutShowcase;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4ADDC3C21ACCE1300076C01B /* AutoLayoutShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADDC3C61ACCE1300076C01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADDC3C71ACCE1300076C01B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ADDC3C91ACCE1300076C01B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4ADDC3CB1ACCE1300076C01B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4ADDC3C91ACCE1300076C01B /* ALCatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALCatalogViewController.swift; sourceTree = "<group>"; };
+		4ADDC3CB1ACCE1300076C01B /* ALLayoutContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLayoutContainerViewController.swift; sourceTree = "<group>"; };
 		4ADDC3CE1ACCE1300076C01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ADDC3D01ACCE1300076C01B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4ADDC3D31ACCE1300076C01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4ADDC3D91ACCE1300076C01B /* AutoLayoutShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ADDC3DE1ACCE1300076C01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4ADDC3DF1ACCE1300076C01B /* AutoLayoutShowcaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutShowcaseTests.swift; sourceTree = "<group>"; };
+		4ADDC3E91ACCE6200076C01B /* ALNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALNavigationController.swift; sourceTree = "<group>"; };
+		4ADDC3EC1ACCEBFC0076C01B /* ALProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALProfileViewController.swift; sourceTree = "<group>"; };
+		4ADDC3EF1ACCEDB00076C01B /* TRProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRProfileHeaderView.swift; sourceTree = "<group>"; };
+		4ADDC3F01ACCEDB00076C01B /* TRProfileHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRProfileHeaderView.xib; sourceTree = "<group>"; };
+		4ADDC3F41ACCEDDD0076C01B /* TRCircleAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRCircleAvatarView.swift; sourceTree = "<group>"; };
+		4ADDC3F71ACCEDFE0076C01B /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		4ADDC3F81ACCEDFE0076C01B /* NSDate+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Format.swift"; sourceTree = "<group>"; };
+		4ADDC3F91ACCEDFE0076C01B /* NSLayoutConstraint+Separator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Separator.swift"; sourceTree = "<group>"; };
+		4ADDC3FA1ACCEDFE0076C01B /* UITableView+ContentTouches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ContentTouches.swift"; sourceTree = "<group>"; };
+		4ADDC4001ACCEE9E0076C01B /* AutoLayoutShowcase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLayoutShowcase-Bridging-Header.h"; sourceTree = "<group>"; };
+		4ADDC4011ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ParallaxHeader.h"; sourceTree = "<group>"; };
+		4ADDC4021ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ParallaxHeader.m"; sourceTree = "<group>"; };
+		4ADDC4041ACCEFD50076C01B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4ADDC4061ACCF65E0076C01B /* ALProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALProfileTableViewCell.swift; sourceTree = "<group>"; };
+		4ADDC43E1ACD3CC80076C01B /* ALDynamicLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALDynamicLayoutViewController.swift; sourceTree = "<group>"; };
+		4ADDC4401ACD543E0076C01B /* UIView+SpringAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SpringAnimations.swift"; sourceTree = "<group>"; };
+		4ADDC4431ACD552C0076C01B /* ALScaleLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALScaleLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4ADDC3BF1ACCE1300076C01B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4ADDC3D61ACCE1300076C01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				4ADDC3C41ACCE1300076C01B /* AutoLayoutShowcase */,
-				4ADDC3DC1ACCE1300076C01B /* AutoLayoutShowcaseTests */,
 				4ADDC3C31ACCE1300076C01B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				4ADDC3C21ACCE1300076C01B /* AutoLayoutShowcase.app */,
-				4ADDC3D91ACCE1300076C01B /* AutoLayoutShowcaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,11 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				4ADDC3C71ACCE1300076C01B /* AppDelegate.swift */,
-				4ADDC3C91ACCE1300076C01B /* MasterViewController.swift */,
-				4ADDC3CB1ACCE1300076C01B /* DetailViewController.swift */,
+				4ADDC3E91ACCE6200076C01B /* ALNavigationController.swift */,
+				4ADDC3C91ACCE1300076C01B /* ALCatalogViewController.swift */,
 				4ADDC3CD1ACCE1300076C01B /* Main.storyboard */,
-				4ADDC3D01ACCE1300076C01B /* Images.xcassets */,
-				4ADDC3D21ACCE1300076C01B /* LaunchScreen.xib */,
+				4ADDC3EB1ACCEBED0076C01B /* Example Pages */,
+				4ADDC3F61ACCEDEB0076C01B /* Vendor */,
+				4ADDC3EE1ACCED2A0076C01B /* Resources */,
 				4ADDC3C51ACCE1300076C01B /* Supporting Files */,
 			);
 			path = AutoLayoutShowcase;
@@ -93,26 +102,81 @@
 		4ADDC3C51ACCE1300076C01B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4ADDC4041ACCEFD50076C01B /* Bridging-Header.h */,
 				4ADDC3C61ACCE1300076C01B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4ADDC3DC1ACCE1300076C01B /* AutoLayoutShowcaseTests */ = {
+		4ADDC3EB1ACCEBED0076C01B /* Example Pages */ = {
 			isa = PBXGroup;
 			children = (
-				4ADDC3DF1ACCE1300076C01B /* AutoLayoutShowcaseTests.swift */,
-				4ADDC3DD1ACCE1300076C01B /* Supporting Files */,
+				4ADDC43D1ACD32BE0076C01B /* Dynamic Layout */,
+				4ADDC3F31ACCEDB60076C01B /* Profile */,
 			);
-			path = AutoLayoutShowcaseTests;
+			name = "Example Pages";
 			sourceTree = "<group>";
 		};
-		4ADDC3DD1ACCE1300076C01B /* Supporting Files */ = {
+		4ADDC3EE1ACCED2A0076C01B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4ADDC3DE1ACCE1300076C01B /* Info.plist */,
+				4ADDC3D01ACCE1300076C01B /* Images.xcassets */,
+				4ADDC3D21ACCE1300076C01B /* LaunchScreen.xib */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4ADDC3F31ACCEDB60076C01B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4ADDC3EC1ACCEBFC0076C01B /* ALProfileViewController.swift */,
+				4ADDC4061ACCF65E0076C01B /* ALProfileTableViewCell.swift */,
+				4ADDC4051ACCF6500076C01B /* Header */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		4ADDC3F61ACCEDEB0076C01B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4ADDC3FF1ACCEE010076C01B /* Extensions */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		4ADDC3FF1ACCEE010076C01B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4ADDC4011ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.h */,
+				4ADDC4021ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.m */,
+				4ADDC3F71ACCEDFE0076C01B /* UIColor+Hex.swift */,
+				4ADDC3F81ACCEDFE0076C01B /* NSDate+Format.swift */,
+				4ADDC3F91ACCEDFE0076C01B /* NSLayoutConstraint+Separator.swift */,
+				4ADDC3FA1ACCEDFE0076C01B /* UITableView+ContentTouches.swift */,
+				4ADDC4401ACD543E0076C01B /* UIView+SpringAnimations.swift */,
+				4ADDC4001ACCEE9E0076C01B /* AutoLayoutShowcase-Bridging-Header.h */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4ADDC4051ACCF6500076C01B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4ADDC3EF1ACCEDB00076C01B /* TRProfileHeaderView.swift */,
+				4ADDC3F01ACCEDB00076C01B /* TRProfileHeaderView.xib */,
+				4ADDC3F41ACCEDDD0076C01B /* TRCircleAvatarView.swift */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		4ADDC43D1ACD32BE0076C01B /* Dynamic Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4ADDC3CB1ACCE1300076C01B /* ALLayoutContainerViewController.swift */,
+				4ADDC43E1ACD3CC80076C01B /* ALDynamicLayoutViewController.swift */,
+				4ADDC4431ACD552C0076C01B /* ALScaleLayoutViewController.swift */,
+			);
+			name = "Dynamic Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,24 +199,6 @@
 			productReference = 4ADDC3C21ACCE1300076C01B /* AutoLayoutShowcase.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4ADDC3D81ACCE1300076C01B /* AutoLayoutShowcaseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4ADDC3E61ACCE1300076C01B /* Build configuration list for PBXNativeTarget "AutoLayoutShowcaseTests" */;
-			buildPhases = (
-				4ADDC3D51ACCE1300076C01B /* Sources */,
-				4ADDC3D61ACCE1300076C01B /* Frameworks */,
-				4ADDC3D71ACCE1300076C01B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4ADDC3DB1ACCE1300076C01B /* PBXTargetDependency */,
-			);
-			name = AutoLayoutShowcaseTests;
-			productName = AutoLayoutShowcaseTests;
-			productReference = 4ADDC3D91ACCE1300076C01B /* AutoLayoutShowcaseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +210,6 @@
 				TargetAttributes = {
 					4ADDC3C11ACCE1300076C01B = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					4ADDC3D81ACCE1300076C01B = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 4ADDC3C11ACCE1300076C01B;
 					};
 				};
 			};
@@ -185,7 +227,6 @@
 			projectRoot = "";
 			targets = (
 				4ADDC3C11ACCE1300076C01B /* AutoLayoutShowcase */,
-				4ADDC3D81ACCE1300076C01B /* AutoLayoutShowcaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +239,7 @@
 				4ADDC3CF1ACCE1300076C01B /* Main.storyboard in Resources */,
 				4ADDC3D41ACCE1300076C01B /* LaunchScreen.xib in Resources */,
 				4ADDC3D11ACCE1300076C01B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4ADDC3D71ACCE1300076C01B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4ADDC3F21ACCEDB00076C01B /* TRProfileHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,29 +250,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADDC3CC1ACCE1300076C01B /* DetailViewController.swift in Sources */,
-				4ADDC3CA1ACCE1300076C01B /* MasterViewController.swift in Sources */,
+				4ADDC3EA1ACCE6200076C01B /* ALNavigationController.swift in Sources */,
+				4ADDC3FD1ACCEDFE0076C01B /* NSLayoutConstraint+Separator.swift in Sources */,
+				4ADDC3FB1ACCEDFE0076C01B /* UIColor+Hex.swift in Sources */,
+				4ADDC4071ACCF65E0076C01B /* ALProfileTableViewCell.swift in Sources */,
+				4ADDC3F11ACCEDB00076C01B /* TRProfileHeaderView.swift in Sources */,
+				4ADDC4031ACCEE9F0076C01B /* UIScrollView+ParallaxHeader.m in Sources */,
+				4ADDC3F51ACCEDDD0076C01B /* TRCircleAvatarView.swift in Sources */,
+				4ADDC43F1ACD3CC80076C01B /* ALDynamicLayoutViewController.swift in Sources */,
+				4ADDC3CC1ACCE1300076C01B /* ALLayoutContainerViewController.swift in Sources */,
+				4ADDC3FC1ACCEDFE0076C01B /* NSDate+Format.swift in Sources */,
+				4ADDC4441ACD552C0076C01B /* ALScaleLayoutViewController.swift in Sources */,
+				4ADDC4411ACD543E0076C01B /* UIView+SpringAnimations.swift in Sources */,
+				4ADDC3CA1ACCE1300076C01B /* ALCatalogViewController.swift in Sources */,
+				4ADDC3FE1ACCEDFE0076C01B /* UITableView+ContentTouches.swift in Sources */,
+				4ADDC3ED1ACCEBFC0076C01B /* ALProfileViewController.swift in Sources */,
 				4ADDC3C81ACCE1300076C01B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4ADDC3D51ACCE1300076C01B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ADDC3E01ACCE1300076C01B /* AutoLayoutShowcaseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4ADDC3DB1ACCE1300076C01B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4ADDC3C11ACCE1300076C01B /* AutoLayoutShowcase */;
-			targetProxy = 4ADDC3DA1ACCE1300076C01B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4ADDC3CD1ACCE1300076C01B /* Main.storyboard */ = {
@@ -340,9 +372,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AutoLayoutShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoLayoutShowcase/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,43 +385,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AutoLayoutShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4ADDC3E71ACCE1300076C01B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AutoLayoutShowcaseTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutShowcase.app/AutoLayoutShowcase";
-			};
-			name = Debug;
-		};
-		4ADDC3E81ACCE1300076C01B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AutoLayoutShowcaseTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutShowcase.app/AutoLayoutShowcase";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoLayoutShowcase/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,14 +412,7 @@
 				4ADDC3E51ACCE1300076C01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4ADDC3E61ACCE1300076C01B /* Build configuration list for PBXNativeTarget "AutoLayoutShowcaseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4ADDC3E71ACCE1300076C01B /* Debug */,
-				4ADDC3E81ACCE1300076C01B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
