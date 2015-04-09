@@ -48,7 +48,7 @@ class TRProfileHeaderView: UIView {
 
             self.nameLabel.text = entity!.nickname
 
-            if let joinedTime = entity?.joinedTime? {
+            if let joinedTime = entity?.joinedTime {
                 let formatter = NSDateFormatter()
                 formatter.dateFormat = "yyyy 年 MM 月 dd 日"
                 self.subtitleLabel.text = "\(formatter.stringFromDate(joinedTime))加入"

@@ -82,20 +82,20 @@ class TRCircleAvatarView: UIView  {
     }
 
     func avatarTapped(sender: UITapGestureRecognizer) {
-        if let callback = self.avatarTappedCallback? {
+        if let callback = self.avatarTappedCallback {
             callback()
         }
     }
 
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         self.highlighted = true
     }
 
-    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         self.highlighted = false
     }
 
-    override func touchesCancelled(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesCancelled(touches: Set<NSObject>!, withEvent event: UIEvent!) {
         self.highlighted = false
     }
 
