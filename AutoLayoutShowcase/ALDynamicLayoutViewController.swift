@@ -38,7 +38,7 @@ class ALDynamicLayoutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.avatarView.whenTapped {
+        self.avatarView.whenTapped { [unowned self] in
             self.randomizeContent()
         }
 
